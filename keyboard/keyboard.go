@@ -9,7 +9,7 @@ import (
 )
 
 //function GetFloat gets float numbers from user input
-//it returns float-pointing number and error
+//, it returns float-pointing number and error
 func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
