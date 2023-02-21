@@ -1,4 +1,4 @@
-//package keyboard gets user input
+//Package keyboard gets user input
 package keyboard
 
 import (
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-//function GetFloat gets float numbers from user input
+//GetFloat gets float numbers from user input
 //, it returns float-pointing number and error
 func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
