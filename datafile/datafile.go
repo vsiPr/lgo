@@ -1,3 +1,4 @@
+//package datafile is used for reading text from files 
 package datafile
 
 import (
@@ -6,6 +7,7 @@ import (
 	"strconv"
 )
 
+//func GetFile is used for reading float-pointing numbers from file
 func GetFile(fileName string) ([3]float64, error) {
 	var numbers [3]float64
 	file, err := os.Open(fileName)
